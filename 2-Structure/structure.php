@@ -55,7 +55,7 @@ echo gettype($boolean) . ' - ';
 echo $boolean;
 echo '<br>';
 // Variables can have null value, this indicate that variable is not initialized yet
-$unassigned;
+$unassigned = null;
 /* if you try to print or get type of null variable, this return an error
     gettype($boolean);
     echo $boolean;
