@@ -18,3 +18,9 @@ $number = 0;
 for ($i = 0; $i < 100; $i++) {
     echo "<label> Element number $i </label> <br>";
 }
+
+//if you have an array you can use foreach
+$other_array = array('Jhon', 'Peter', 'Marie');
+foreach ($other_array as $value => $index) {
+    echo " $index - $value ";
+}

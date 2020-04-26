@@ -24,3 +24,17 @@ echo gettype($float_variable) . ' - ' . $float_variable . '<br>';
 echo gettype($boolean_variable) . ' - ' . $boolean_variable . '<br>';
 echo gettype($string_variable) . ' - ' . $string_variable . '<br>';
 echo gettype($null_variable) . ' - ' . $null_variable . '<br>';
+
+//You can use array to store multiple values in one variable
+
+$array_demo = ['123', '456', '789'];
+$other_array = array('123', '456', '789');
+
+echo implode($array_demo) . '<br>';
+echo $array_demo[0];
+
+//Is possible define manually index
+$array_values = array(
+    'web_page' => 'https://rolteca.com',
+    'Developer' => 'Roger Bosch',
+);
